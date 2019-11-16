@@ -3,7 +3,7 @@ name: Run tests
 jobs:
   tests:
     name: Run tests on Rails 2.6
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@1
